@@ -61,3 +61,7 @@ function loadQuiz() {
 function deselectAnswers() {
   answerEls.forEach((answerEl) => (answerEl.checked = false));
 }
+
+submitBtn.addEventListener("click", () => {
+  const answer = getSelected();
+});
