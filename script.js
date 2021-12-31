@@ -42,4 +42,5 @@ const c_text = document.getElementById("c_text");
 const d_text = document.getElementById("d_text");
 const submitBtn = document.getElementById("submit");
 
-const currentQuiz = 0;
+let currentQuiz = 0;
+let score = 0;
